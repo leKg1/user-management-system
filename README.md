@@ -22,7 +22,7 @@ Make sure you have npm installed on your system (comes with [Node.js](https://no
 First, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/leKg1/vue3-user-management-system.git
+git clone https://github.com/leKg1/user-management-system.git
 
 Navigate to the project directory:
 cd user-management-system
