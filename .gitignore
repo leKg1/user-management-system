@@ -1,9 +1,10 @@
-.DS_Store
-node_modules
-/dist
+# Dependency directories
+node_modules/
 
+# Build output directory
+/dist/
 
-# local env files
+# Local environment variable files
 .env.local
 .env.*.local
 
@@ -14,10 +15,26 @@ yarn-error.log*
 pnpm-debug.log*
 
 # Editor directories and files
-.idea
-.vscode
+.idea/
+.vscode/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+package-lock.json
+yarn.lock
+
+# Auto-generated configuration files
+/some-auto-generated-config.json
+
+# Test coverage reports
+/coverage/
+
+# Temporary files for debugging
+/temp-debug-files/
